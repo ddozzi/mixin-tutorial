@@ -32,7 +32,10 @@ To fix this, go to `gradle > wrapper > gradle-wrapper.properties` then replace w
 https://user-images.githubusercontent.com/69029714/126439227-39686823-fe4f-49fe-bb84-0a86235286c0.mov
 
 
-Now for the lengthy part. Replace all the "example" strings with your client name. Also replace the "net" packages with whatever fits you. An example is shown below. **This MUST be done for all instances. DO NOT CHANGE ANY OF THE "mixin" OR "mixins" strings **
+Now for the lengthy part. Replace all the "example" strings with your client name. Also replace the "net" packages with whatever fits you. An example is shown below.
+
+**! This MUST be done for all instances. DO NOT CHANGE ANY OF THE "mixin" OR "mixins" strings !**
+
 
 Once you are done, click the gradle button on the far right. Then click `Tasks > forgegradle > setupDecompWorkspace`. This will take some time.
 ![Screen Shot 2021-07-21 at 2 09 49 AM](https://user-images.githubusercontent.com/69029714/126439713-851590a2-9733-4ee3-8645-89234d3528e6.png)
@@ -44,10 +47,17 @@ Click the button at the top then click `Minecraft Client` An example is shown be
 
 https://user-images.githubusercontent.com/69029714/126440150-9632bb22-8278-467e-ad86-425d15ffa2ec.mov
 
-Click the same button again, then click `Edit Configurations`
+Click the same button again, then click `Edit Configurations`. You will see an error saying "Class 'GradleStart not found in module 'ExampleClient'". 
+To fix this, set the `Client` to `Client.main`.
+
+https://user-images.githubusercontent.com/69029714/126440865-81519283-7a34-4d12-bf6f-ea14ba94192d.mov
+
+Click Apply. The error should be gone now.
 
 
 
 ## Tweaker
 
-Create a new package in `src/main/java
+Create a new package in `src/main/java` with the package name you've set in your `build.gradle` in this case, it would be `net.example`
+
+Create a new package named `mixins` inside the previous pacakge then create a new `java` file with whatever you named your tweaker. In this case, it's `ExampleTweaker`. 
