@@ -66,6 +66,7 @@ Create a new package named `mixins` inside the previous pacakge then create a ne
 
 **Copy the code from this ![tweaker]("https://github.com/ddozzi/Mixin-Tutorial/blob/main/ExampleTweaker.java") to yours.**
 
+Replace the `example` at `Mixins.addConfiguration("mixins.example.json");` (inside your tweaker) with your client name or whatever you named your package.
 
 
 So far, your project should look something like this: 
