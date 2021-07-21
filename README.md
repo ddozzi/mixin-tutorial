@@ -61,3 +61,21 @@ Click Apply. The error should be gone now.
 Create a new package in `src/main/java` with the package name you've set in your `build.gradle` in this case, it would be `net.example`
 
 Create a new package named `mixins` inside the previous pacakge then create a new `java` file with whatever you named your tweaker. In this case, it's `ExampleTweaker`. 
+
+
+
+**Copy the code from this ![tweaker]("https://github.com/ddozzi/Mixin-Tutorial/blob/main/ExampleTweaker.java") to yours.**
+
+
+
+So far, your project should look something like this: 
+
+![Screen Shot 2021-07-21 at 2 28 07 AM](https://user-images.githubusercontent.com/69029714/126441740-f74f0274-1c95-4f0d-b609-fd847934db75.png)
+
+
+
+## Mixin Time!
+
+Now it's time to make your first mixin!
+
+First, copy the json from ![here] and 
