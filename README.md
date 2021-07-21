@@ -80,6 +80,7 @@ So far, your project should look something like this:
 Now it's time to make your first mixin!
 
 Create a new file named whatever was inside your `Mixins.addConfiguration("mixins.example.json");` inside the resource folder.
+
 ![Screen Shot 2021-07-21 at 2 36 44 AM](https://user-images.githubusercontent.com/69029714/126442702-69b7a10f-67be-4dea-9216-366b89469599.png)
 
 Then, copy the json from ![here]("https://github.com/ddozzi/Mixin-Tutorial/blob/main/mixins.example.json") into the json file you just created.
@@ -87,7 +88,9 @@ Then, copy the json from ![here]("https://github.com/ddozzi/Mixin-Tutorial/blob/
 Ok, now it's time to create an actual mixin.
 
 Create a package named `client` inside the package where your tweaker is located.
+
 Then, inside that `client` package, create a java file named `MixinMinecraft`
+
 ![Screen Shot 2021-07-21 at 2 39 38 AM](https://user-images.githubusercontent.com/69029714/126443045-7ea64cde-02c6-423a-ae11-704d9292b7b6.png)
 
 then add this mixin code: 
@@ -105,4 +108,4 @@ public class MixinMinecraft {
 
 Congrats! You've made a mixin client for 1.8.9! For more guidance, join the spongepowered ![discord]("https://discord.gg/sponge") and check out this ![cheatsheet]("https://github.com/2xsaiko/mixin-cheatsheet")
 
-**Having issues? Feel free to contact me on discord (ddozzi#6190)!**
+**Having issues? Feel free to contact me on discord (ddozzi#6190), the code is also available ![here]("https://github.com/ddozzi/Mixin-Tutorial-Code/tree/main")**
