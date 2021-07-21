@@ -105,4 +105,4 @@ public class MixinMinecraft {
 
 Congrats! You've made a mixin client for 1.8.9! For more guidance, join the spongepowered ![discord]("https://discord.gg/sponge") and check out this ![cheatsheet]("https://github.com/2xsaiko/mixin-cheatsheet")
 
-**Having issues? Feel free to contact me on discord (ddozzi#6190)! The code made in this tutorial is also available ![here]**
+**Having issues? Feel free to contact me on discord (ddozzi#6190)!**
