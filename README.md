@@ -1,3 +1,7 @@
+### this tutorial is no longer being maintained!
+### for a more up-to-date and in-depth tutorial, check out ![my new tutorial!]("https://ddozzi.gitbook.io/mixin-tutorial/how-to-make-a-mixin-client/") 
+### thanks for all the support!
+
 # Mixin Tutorial - INTELLJI
 I haven't seen any decent mixin tutorials, so here's one.
 
@@ -5,10 +9,6 @@ I haven't seen any decent mixin tutorials, so here's one.
 
 - Setting up your first mixin project
 - Creating your first mixin
-
-### this tutorial is no longer being maintained!
-### for a more up-to-date and in-depth tutorial, check out ![my new tutorial!]("https://ddozzi.gitbook.io/mixin-tutorial/how-to-make-a-mixin-client/") 
-### thanks for all the support!
 
 ## Setup
 
