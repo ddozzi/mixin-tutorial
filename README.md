@@ -1,5 +1,5 @@
 ### this tutorial is no longer being maintained!
-### for a more up-to-date and in-depth tutorial, check out [my new tutorial!]("https://ddozzi.gitbook.io/mixin-tutorial/how-to-make-a-mixin-client/") 
+### for a more up-to-date and in-depth tutorial, check out [my new tutorial!](https://ddozzi.gitbook.io/mixin-tutorial/how-to-make-a-mixin-client/) 
 ### thanks for all the support!
 
 # Mixin Tutorial - INTELLJI
